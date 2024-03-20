@@ -42,7 +42,7 @@ void remover(Fila &F){
 }
 
 int primeiro(Fila &F){
-    return F.p > 4 ? F.vet1[F.p] : F.vet2[F.p-5];
+    return F.p < 4 ? F.vet1[F.p] : F.vet2[F.p-5];
 }
 
 int main()
